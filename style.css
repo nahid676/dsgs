@@ -1,0 +1,27 @@
+.n{
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.n a{
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(34, 11, 243);
+}
+.n a:hover{
+    background-color: gray;
+}
+@media screen and (max-width: 600px) {
+    .n{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .n a {
+        background-color: rgb(9, 236, 58);
+        margin: 10px 0;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+}
